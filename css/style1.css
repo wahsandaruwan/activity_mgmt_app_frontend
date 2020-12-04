@@ -60,7 +60,7 @@ header nav .menu li{
 
 header nav .menu li a{
     text-decoration: none;
-    color: #fff;
+    color: #1c1c1c;
     font-size: 0.8rem;
     padding: 5px 8px;
     background-color: #f39c12;
@@ -121,18 +121,18 @@ header nav .menu li a:hover{
 }
 
 /* Button */
-.inputfrm .ui a{
+.inputfrm .ui button{
     width: 100%;
     background: #f39c12;
     padding: 10px 20px;
-    text-decoration: none;
-    text-align: center;
     color: #1c1c1c;
     font-size: 1rem;
+    border: none;
+    cursor: pointer;
     transition: all 0.3s ease-in;
 }
 
-.inputfrm .ui a:hover{
+.inputfrm .ui button:hover{
     background: #95a5a6;
 }
 
@@ -167,20 +167,18 @@ header nav .menu li a:hover{
     height: 35px;
 }
 
-.tab .search a{
+.tab .search button{
     width: 25%;
     height: 35px;
-    text-decoration: none;
     color: #1c1c1c;
     background: #f39c12;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
+    border: none;
     font-size: 1rem;
     transition: all 0.3s ease-in; 
 }
 
-.tab .search a:hover{
+.tab .search button:hover{
     background: #95a5a6;
 }
 
