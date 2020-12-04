@@ -63,6 +63,7 @@ body{
     height: 35px;
     border: none;
     outline: none;
+    font-size: 0.85rem;
 }
 
 .container button{
