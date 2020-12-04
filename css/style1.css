@@ -252,6 +252,10 @@ header nav .menu li a:hover{
         margin: 0 5px;
     }
 
+    header nav .menu li a{
+        font-size: 0.7rem;
+    }
+
     /* -------Container------- */
     .container{
         width: 80%;
