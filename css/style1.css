@@ -236,7 +236,7 @@ header nav .menu li a:hover{
 }
 
 /* ---------Responsive---------- */
-@media(max-width: 1040px){
+@media(max-width: 1160px){
     /* -------Navigation------- */
     header nav{
         width: 100%;
@@ -252,15 +252,10 @@ header nav .menu li a:hover{
         margin: 0 5px;
     }
 
-    header nav .menu li a{
-        font-size: 0.7rem;
-    }
-
     /* -------Container------- */
     .container{
         width: 80%;
         display: block;
-
     }
 
     .container .inputfrm,
@@ -283,6 +278,11 @@ header nav .menu li a:hover{
 }
 
 @media(max-width: 550px){
+    /* -------Navigation------- */
+    header nav .menu li a{
+        font-size: 0.7rem;
+    }
+
     /* -------Container------- */
     .container{
         width: 98%;
