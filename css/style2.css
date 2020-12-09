@@ -50,12 +50,6 @@ body{
     font-size: 0.9rem;
 }
 
-.container .si .click a{
-    text-decoration: none;
-    color: #1c1c1c;
-    font-size: 0.9rem;
-}
-
 .container .inputs input{
     margin: 8px 0;
     padding: 3px 12px;
