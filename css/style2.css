@@ -21,7 +21,7 @@ body{
     position: absolute;
     top: 100px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%);
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -38,8 +38,7 @@ body{
 }
 
 /* -----Inputs and Clicks----- */
-.container .inputs,
-.container .click{
+.container .inputs{
     display: flex;
     justify-content: center;
     align-items: center;
